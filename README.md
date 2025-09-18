@@ -131,7 +131,7 @@ Ensemble methods like Random Forest and XGBoost outperform single learners for t
 
 SMOTE significantly improved recall for all models.
 
-> This dataset represents real-world credit card transactions made in September 2013 by European cardholders, covering just two days of activity. Out of 284,807 total transactions, only 492 were fraudulent—a mere 0.172% of all records. This extreme imbalance mirrors real industry conditions, where fraudulent cases are rare but costly, making detection both critical and challenging. By applying SMOTE to balance the training data and evaluating multiple models, we were able to significantly improve recall without severely compromising precision. Ensemble methods like Random Forest and XGBoost achieved the strongest performance, making them ideal candidates for production scenarios where both false positives and missed frauds carry high costs.
+> This dataset represents real-world credit card transactions made in September 2013 by European cardholders, covering just two days of activity. Out of 284,807 total transactions, only 492 were fraudulent—a mere 0.172% of all records. This extreme imbalance mirrors real industry conditions, where fraudulent cases are rare but costly, making detection both critical and challenging. By applying SMOTE to balance the training data and evaluating multiple models, I was able to significantly improve recall without severely compromising precision. Ensemble methods like Random Forest and XGBoost achieved the strongest performance, making them ideal candidates for production scenarios where both false positives and missed frauds carry high costs.
 
 ## 🚀 Future Improvements
 Test advanced ensemble and boosting variants (e.g., LightGBM, CatBoost).
